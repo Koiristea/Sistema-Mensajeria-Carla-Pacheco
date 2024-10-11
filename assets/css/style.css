@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    height: 729px;
+}
+
+.chat {
+    & .user-status {
+        display: flex;
+        border: solid 1.5px #E8EBE4;
+    }
+}
+
+.user {
+    display: flex;
+    padding: 13px 30px;
+    & img {
+        width: 50px;
+        height: 50px;
+        border-radius: 150px;
+        margin: 0 20px 0 0;
+    }
+    & .user-info {
+        width: 100px;
+        margin: auto 0;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        & h3 {
+            font-weight: 400;
+        }
+        & h5 {
+            color: #BEC1BB;
+        }
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px auto 0;
+    width: 65px;
+    height: 100%;
+    & button {
+        border: none;
+        font-size: 22px;
+        color: #828485;
+        background-color: transparent;
+    }
+}
+
+.new-chat {
+    height: 110px;
+    display: flex;
+    border: solid 1.5px #E8EBE4;
+    & button {
+        border: none;
+        background-color: #A491D2;
+        color: white;
+        font-size: 20px;
+        height: 50px;
+        width: 220px;
+        margin: auto;
+    }
+}
+
+.contacts-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & .contacts {
+        border: solid 1.5px #E8EBE4;
+        display: flex;
+        padding: 12.9px 0;
+        & img {
+            height: 40px;
+            width: 40px;
+            border-radius: 150px;
+            margin: 0 18px 0 28px;
+        }
+        & .text {
+            font-family: "Roboto", serif;
+            & h4 {
+                font-size: 14px;
+                font-weight: 400;
+                margin: 2px;
+            }
+            & h5 {
+                margin-left: 2px;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.principal {
+    border-left: solid 1.5px #BEC1BB;
+    background-color: #f5f6f5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    & .logo {
+        font-family: "Roboto", serif;
+        margin: auto;
+        text-align: center;
+        & img {
+            height: 270px;
+            width: 270px;
+        }
+        & h1 {
+            font-size: 43px;
+            margin-top: 20px;
+            font-weight: 400;
+        }
+        & h2 {
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: 10px;
+            width: 450px;
+            color: #505152;
+            & b {
+                color: black;
+            }
+        }
+    }
+}
